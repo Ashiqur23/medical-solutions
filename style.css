@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow: hidden !important;
+}
+
+span{
+    color: #4c40f7;
+}
+
+.nav-item, .dropdown{
+    padding: 0px 15px;
+    transition: all .20s ease-in-out;
+}
+.nav-item:hover{ 
+    padding: 0px 15px;
+    border-bottom: 4px solid #4c40f7;
+    border-top: 4px solid #4c40f7;
+    color: white;
+    border-radius: 10px;
+}
+.dropdown:hover{
+    padding: 0px 15px;
+    border-bottom: 4px solid #4c40f7;
+    border-top: 4px solid #4c40f7;
+    border-radius: 10px;
+}
+.btn button{
+    padding: 10px 15px;
+    background-color: #4c40f7;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.dropdown .btn{
+    border-color: white !important;
+}
+.nav-btn button:hover{
+    background-color: #fff;
+    color: #4c40f7;
+    padding: 9px 14px;
+    border: 1px solid #4c40f7;
+}
+/* hero  */
+.btn-group button{
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width:  155px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn-group .button-1{
+    background-color: #4c40f7;
+    color: #fff;
+    font-weight: 500;
+}
+.btn-group .button-2{
+    border: 2px solid #4c40f7;
+    color: #4c40f7;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.btn-group .button-1:hover{
+    background-color: white;
+    color: #4c40f7;
+    border: 2px solid #4c40f7;
+}
+.btn-group .button-2:hover{
+    background-color: #4c40f7;
+    color: #fff;
+
+}
+
+/* second  */
+.items:hover{
+    background-color: rgba(235, 235, 235, 0.697);
+    border-radius: 10px;
+}
+.items-2{
+    background: rgba(244, 81, 79, 0.05);
+    padding: 12px 15px;
+    border-radius: 50%;
+}
+
+.third{
+    background: rgba(243, 247, 251, 0.58);
+}
+
+/* fourth-items */
+.fourth-items i{
+    background-color: #4c40f7;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+/* fiveth-content */
+.fiveth-content .col{
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.fiveth-content .col p {
+    color: rgb(126, 126, 126);
+    font-size: 16px;
+    text-align: center;
+}
+.fiveth-content .col {
+    padding: 50px;
+}
+
+/* six-section */
+.six-section{
+    background: #F5F5F5;
+    padding: 50px 0px;
+}
+/* testimonial-grid   */
+.retting i{
+    color: #F3874A;
+    font-size: 12px;
+}
+.textimonial-section{
+    margin: 100px 0px !important;
+}
+
+/* eight section style */
+.eight-section{
+    margin: 100px 0px;
+}
+
+
+
+/*============================       service page style start            ============================*/
+/*============================       service page style start            ============================*/
+.service-hero{
+    background-image: url("images/service-img/service-hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.service-hero-container{
+    background-color: #0f00de63;
+    height: 90vh;
+}
+.service-hero-content{
+    height: 90vh !important;
+}
+.service-2nd-section, .service-third-section, .section-fourth{
+    margin: 100px 0px;
+}
+.service-2nd-info i{
+    background-color: #0e62f36f;
+    color: #0E63F3;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+/*============================       service page style end            ============================*/
+/*============================       service page style end            ============================*/
+
+
+/*============================       About page style end            ============================*/
+/*============================       About page style end            ============================*/
+
+.about-hero{
+    background-image: url("images/about-img/about-hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.about-hero-container{
+    background-color: #0f00de63;
+    height: 90vh;
+}
+.btn-group button:hover{
+    color: #4c40f7;
+    background-color: #fff;
+    border: 1px solid #4c40f7;
+}
+.about-hero-content{
+    height: 90vh !important;
+}
+.about-2nd-section, .about-third-section, .about-fourth{
+    margin: 100px 0px;
+}
+/*============================       About page style end            ============================*/
+/*============================       About page style end            ============================*/
+
+/*============================       testimonal page style end            ============================*/
+/*============================       testimonal page style end            ============================*/
+
+.testimonal-hero{
+    background-image: url("images/titalicon.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.testimonal-hero-container{
+    background-color: #0f00de63;
+    height: 90vh;
+}
+.btn-group button:hover{
+    color: #4c40f7;
+    background-color: #fff;
+    border: 1px solid #4c40f7;
+}
+.testimonal-hero-content{
+    height: 90vh !important;
+}
+.testimonal-2nd-section, .testimonal-third-section, .testimonal-fourth{
+    margin: 100px 0px;
+}
+/*============================       About page style end            ============================*/
+/*============================       About page style end            ============================*/
+
+/*============================       testimonal page style end            ============================*/
+/*============================       testimonal page style end            ============================*/
+
+.contact-hero{
+    background-image: url("images/contact-img/contact-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.contact-hero-container{
+    background-color: #0f00de63;
+    height: 90vh;
+}
+.btn-group button:hover{
+    color: #4c40f7;
+    background-color: #fff;
+    border: 1px solid #4c40f7;
+}
+.contact-hero-content{
+    height: 90vh !important;
+}
+.testimonal-2nd-section, .testimonal-third-section, .testimonal-fourth{
+    margin: 100px 0px;
+}
+/*============================       About page style end            ============================*/
+/*============================       About page style end            ============================*/
+
